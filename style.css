@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+.selection{
+    font-family: 'Lumanosimo', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 50px;
+    width: 350px;
+}
+.header p{
+    background-color: aquamarine;
+    padding: 10px;
+    color: red;
+}
+.header:hover p{
+    background-color: red;
+    color: black;
+}
+.options{
+    display: none;
+}
+.options.active{
+    display: block;
+}
+.options .opt p{
+    background-color: rgb(179, 243, 243);
+    padding: 20px;
+    color: green;
+}
+.options .opt:hover p{
+    background-color: red;
+    color: black;
+}
